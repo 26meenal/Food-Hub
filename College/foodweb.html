@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Foodweb.css">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Catamaran:wght@200&family=Courgette&family=Edu+TAS+Beginner:wght@700&family=Lato:wght@300;900&family=Mukta:wght@700&family=Mulish:wght@300&family=Open+Sans&family=PT+Sans:ital,wght@1,700&family=Poppins:wght@300&family=Raleway:wght@100&family=Roboto&family=Roboto+Condensed:wght@700&family=Roboto+Slab&display=swap"rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f30fac2c61.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <h1>Food HUB</h1>
+            </div>
+            <div class="input">
+                <input type="text" value="" id="inp" placeholder="Search Here ..." onkeyup="myFun()">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="icon">
+                <i onclick="login()" class="fa-solid fa-user"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+                <i onclick="nav()" class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+
+
+        <div class="login">
+            <h2>Log In </h2>
+            <input type="text" placeholder="Enter Your Name">
+            <input type="password" placeholder="Enter Password"> <br>
+            <button>Log In</button>
+
+        </div>
+        <div class="nav">
+            <p>Home</p>
+            <p>Foods</p>
+            <p>Blog</p>
+            <p>Customer</p>
+
+
+        </div>
+
+        <!-- main Page -->
+
+        <div class="main">
+            <div class="text">
+                <h1>Simple & Tasty Recipes</h1>
+                <p>Our restaurant serves freshly made delicious food.The chefs are also proffesional in their respective fields of cooling.You can have a family like atmosphere in our restaurant.It is the choice to bring your family and enjoy delicious food... </p>
+                <button>Explore More</button>
+            </div>
+            <img src="burger (2).png" alt="">
+        </div>
+
+        <!--  Card Food -->
+
+        <table>
+            <tr>
+                <td>
+                    <div class="head">
+                        <h1>Our <span>Foods</span></h1>
+                    </div>
+                    <div class="crd">
+                        <div class="card">
+                            <img src="fds (1).jpeg" alt="">
+                            <h2>199 Rupees Only</h2>
+                            <p>Veg Biryani served with Dahi and coriander leaves. </p>
+                            <button ><a href="pay.html">Order Now</a></button>
+                        </div>
+                        <div class="card">
+                            <img src="fds (2).jpeg" alt=""height="200">
+                            <h2>299 Rupees Only</h2>
+                            <p>Fried Rice with light green veggies in Punjabi style</p>
+                            <button><a href="pay.html">Order Now</a></button>
+                        </div>
+                        <div class="card">
+                            <img src="fds (17).jpeg" alt="">
+                            <h2>149 Rupees Only</h2>
+                            <p>Veg Manchurian Balls with spicy  tomato gravy</p>
+                            <button><a href="pay.html">Order Now</a></button>
+                        </div>
+                    </div>
+
+                    <div class="crd">
+                        <div class="card">
+                            <img src="fds (4).jpeg" alt="" height="275">
+                            <h2>299 Rupees Only</h2>
+                            <p>Veg Cheesy Aloo Tikki Burger with Crispy French Fries</p>
+                            <button><a href="pay.html">Order Now</a></button>
+                        </div>
+                        <div class="card">
+                            <img src="fds (5).jpeg" alt="" height="275">
+                            <h2>99 Rupees Only</h2>
+                            <p>Belgium Dark Chocolate Crunchy Delight Pastry</p>
+                            <button><a href="pay.html">Order Now</a></button>
+                        </div>
+                        <div class="card">
+                            <img src="fds (6).jpeg" alt="">
+                            <h2>299 Rupees Only</h2>
+                            <p>MeeVi Special Delux North Indian Thali </p>
+                            <button><a href="pay.html">Order Now</a></button>
+                        </div>
+                    </div>
+                </td>
+
+
+            </tr>
+
+            <tr>
+                <td>
+                    <div class="head">
+                        <h1>Our <span>Blogs</span></h1>
+                    </div>
+                    <div class="crd">
+                        <div class="blog">
+                            <img src="fds (6).jpeg" alt="">
+                            <h2>Fact About Indian Food</h2>
+                            <p>To know about the interesting factas of India click below..</p>
+                            <a href="facts.html">Read More</a>
+                        </div>
+                        <div class="blog">
+                            <img src="fds (4).jpeg" alt="" height="275">
+                            <h2>Diffrent Type of Burger</h2>
+                            <p>Our restaurant serves the below given varieties of burger Check now...</p>
+                            <a href="burgertype.html">Read More</a>
+                        </div>
+                        <div class="blog">
+                            <img src="fds (7).jpeg" alt="" height="275">
+                            <h2>Delicious Chicken Recipes</h2>
+                            <p>Cook yourself by the given recipes of our restaurant..</p>
+                            <a href="https://themodernproper.com/60-best-chicken-breast-recipes">Read More</a>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+        <!-- Customer Review -->
+
+
+        <div class="head">
+            <h1>Customer <span>Review</span></h1>
+        </div>
+        <div class="review">
+
+            <div class="customer">
+                <img src="men (1).jpg" alt=""> <br>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+                <p></p>
+                
+            </div>
+            <div class="customer">
+                <img src="men (2).jpg" alt=""> <br>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+                <p></p>
+                
+            </div>
+            <div class="customer">
+                <img src="men (3).jpg" alt=""> <br>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+                <p>Indulge your senses in an unforgettable culinary journey at [MeeVi]. Our exquisite blend of flavors, coupled with a charming ambiance, promises to elevate your dining experience to new heights. Immerse yourself in a world where passion meets the plate, as our skilled chefs craft each dish with precision and creativity. From sizzling appetizers to decadent desserts, every bite tells a story of culinary expertise and dedication to quality. Whether you're seeking a romantic evening, a family celebration, or a casual meal with friends, [MeeVi] offers a diverse menu that caters to all tastes. Join us and savor the extraordinary – where every moment is a celebration of taste, texture, and pure gastronomic delight. Make reservations now and embark on a culinary adventure like no other at [MeeVi].</p>
+                
+            </div>
+
+            
+        </div>
+        <div class="btn">
+            <button><a href="index.html">Prev</a></button>
+            <button><a href="menu.html">Next</a></button>
+
+        </div>
+
+        <div class="footer">
+            <div class="txt">
+                <h2>About US</h2>
+                <p>Lorem ipsum dolor sit amet <br> consectetur adipisicing elit. Cumque</p>
+                <p>Service</p>
+                <p>Customer</p>
+                <p>Foods</p>
+
+            </div>
+            <div class="txt">
+                <h2>About US</h2>
+                <p>Product</p>
+                <p>Service</p>
+                <p>Customer</p>
+                <p>Foods</p>
+
+            </div>
+            <div class="txt">
+                <h2>About US</h2>
+                <p>Near</p>
+                <p>Service</p>
+                <p>Customer</p>
+                <p>Foods</p>
+
+            </div>
+            <div class="txt">
+                <h2>About US</h2>
+                <p>Websites</p>
+                <p>Service</p>
+                <p>Customer</p>
+                <p>Foods</p>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>

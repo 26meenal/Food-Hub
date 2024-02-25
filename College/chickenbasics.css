@@ -1,0 +1,30 @@
+span{
+    color: green;
+    font-weight: 700;
+    text-decoration:underline ;
+}
+.div2{
+    padding-left: 400px;
+    padding-right: 400px;
+}
+.div1{
+    padding-left: 400px;
+    padding-right: 400px;
+}
+.img1{
+    display: flex;
+    text-align: center;
+    width: 33%;
+}
+.i1{
+    width: 120px;
+    padding: 100px;
+}
+.i2{
+    width: 120px;
+    height: 100px;
+}
+h1{
+    font-size: 50px;
+    font-weight:700px ;
+}
